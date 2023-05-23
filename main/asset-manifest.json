@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "  https://workshopsnow.github.io/workshop-devops-webstep/main/static/css/main.073c9b0a.css",
-    "main.js": "  https://workshopsnow.github.io/workshop-devops-webstep/main/static/js/main.61262f75.js",
-    "static/js/787.f4653251.chunk.js": "  https://workshopsnow.github.io/workshop-devops-webstep/main/static/js/787.f4653251.chunk.js",
-    "static/media/logo.svg": "  https://workshopsnow.github.io/workshop-devops-webstep/main/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "  https://workshopsnow.github.io/workshop-devops-webstep/main/index.html",
-    "main.073c9b0a.css.map": "  https://workshopsnow.github.io/workshop-devops-webstep/main/static/css/main.073c9b0a.css.map",
-    "main.61262f75.js.map": "  https://workshopsnow.github.io/workshop-devops-webstep/main/static/js/main.61262f75.js.map",
-    "787.f4653251.chunk.js.map": "  https://workshopsnow.github.io/workshop-devops-webstep/main/static/js/787.f4653251.chunk.js.map"
+    "main.css": "https://janneone.github.io/workshop-devops-webstep/main/static/css/main.073c9b0a.css",
+    "main.js": "https://janneone.github.io/workshop-devops-webstep/main/static/js/main.90b909d1.js",
+    "static/js/787.f4653251.chunk.js": "https://janneone.github.io/workshop-devops-webstep/main/static/js/787.f4653251.chunk.js",
+    "static/media/logo.svg": "https://janneone.github.io/workshop-devops-webstep/main/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "https://janneone.github.io/workshop-devops-webstep/main/index.html",
+    "main.073c9b0a.css.map": "https://janneone.github.io/workshop-devops-webstep/main/static/css/main.073c9b0a.css.map",
+    "main.90b909d1.js.map": "https://janneone.github.io/workshop-devops-webstep/main/static/js/main.90b909d1.js.map",
+    "787.f4653251.chunk.js.map": "https://janneone.github.io/workshop-devops-webstep/main/static/js/787.f4653251.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.61262f75.js"
+    "static/js/main.90b909d1.js"
   ]
 }
