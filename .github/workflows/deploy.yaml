@@ -1,6 +1,17 @@
 name: Deployment
 
-on: workflow_dispatch
+on:
+  workflow_dispatch:
+    inputs:
+      versionType:
+        type: choice
+        description: "Semver"
+        default: "patch"
+        required: true
+        options:
+          - patch
+          - minor
+          - major
 
 jobs:
   UnitsTests:
