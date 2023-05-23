@@ -64,7 +64,7 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - uses: JamesIves/github-pages-deploy-action@4.4.1
+      - uses: JamesIves/github-pages-deploy-action@v4.4.1
         id: deployment
         with:
           folder: ./build
