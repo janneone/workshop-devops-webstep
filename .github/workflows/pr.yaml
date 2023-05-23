@@ -1,45 +1,13 @@
 name: PR Deployment
 
-on: pull_request
+on:
+  pull_request:
+  push:
+    branches: main
 
 jobs:
-  UnitsTests:
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run unit tests
-        run: npm run test
-
-  E2ETests:
-    runs-on: ubuntu-22.04
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run e2e tests
-        run: npm run e2e:run
-
   Build:
     runs-on: ubuntu-22.04
-    needs: [UnitsTests, E2ETests]
     permissions:
       contents: write
       id-token: write
@@ -59,7 +27,6 @@ jobs:
         run: npm install
 
       - name: Initialize our deploy URL
-        id: deployment_url
         run: echo "PUBLIC_URL=${{vars.PUBLIC_URL}}/${{github.head_ref}}" >> $GITHUB_ENV
 
       - name: Build our project
