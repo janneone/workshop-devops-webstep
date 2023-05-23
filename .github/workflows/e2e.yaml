@@ -17,5 +17,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run unit e2e tests
+      - name: Run e2e tests
         run: npm run e2e:run
